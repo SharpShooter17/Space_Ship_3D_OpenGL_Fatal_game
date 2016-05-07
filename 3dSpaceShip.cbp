@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="3dSpaceShip" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/3dSpaceShip" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/3dSpaceShip" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-g" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="OBJLoader/loadObj.h" />
+		<Unit filename="OBJLoader/obj.cpp" />
+		<Unit filename="TGALoader/targa.cpp" />
+		<Unit filename="TGALoader/targa.h" />
+		<Unit filename="include/Asteroida.h" />
+		<Unit filename="include/Bullet.h" />
+		<Unit filename="include/Gracz.h" />
+		<Unit filename="include/HUD.h" />
+		<Unit filename="include/MenadzerNPC.h" />
+		<Unit filename="include/Nagroda.h" />
+		<Unit filename="include/OGLcolors.h" />
+		<Unit filename="include/StatekKosmiczny.h" />
+		<Unit filename="include/StatekWroga.h" />
+		<Unit filename="include/StopWatch.h" />
+		<Unit filename="include/Vector.h" />
+		<Unit filename="program/DownloadFile.cpp" />
+		<Unit filename="program/GameLoop.cpp" />
+		<Unit filename="program/Inicjuj.cpp" />
+		<Unit filename="program/Joystick.cpp" />
+		<Unit filename="program/Keyboard.cpp" />
+		<Unit filename="program/Kolizje.cpp" />
+		<Unit filename="program/Logika.cpp" />
+		<Unit filename="program/Menu.cpp" />
+		<Unit filename="program/Myszka.cpp" />
+		<Unit filename="program/RenderScene.cpp" />
+		<Unit filename="program/main.cpp" />
+		<Unit filename="src/Asteroida.cpp" />
+		<Unit filename="src/Bullet.cpp" />
+		<Unit filename="src/Gracz.cpp" />
+		<Unit filename="src/HUD.cpp" />
+		<Unit filename="src/MenadzerNPC.cpp" />
+		<Unit filename="src/Nagroda.cpp" />
+		<Unit filename="src/ResetGame.cpp" />
+		<Unit filename="src/StatekKosmiczny.cpp" />
+		<Unit filename="src/StatekWroga.cpp" />
+		<Unit filename="src/Vector.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

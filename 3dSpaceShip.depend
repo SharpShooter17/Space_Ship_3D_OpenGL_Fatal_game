@@ -1,0 +1,206 @@
+# depslib dependency file v1.0
+1407670216 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\objloader\obj.cpp
+	"loadObj.h"
+
+1408971088 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\objloader\loadobj.h
+	<GL/glut.h>
+	<stdio.h>
+	<string.h>
+	<vector>
+	"../TGALoader/targa.h"
+
+1408532078 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\tgaloader\targa.h
+	<GL/glut.h>
+
+1455968734 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\downloadfile.cpp
+
+1455969461 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\gameloop.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"../include/hud.h"
+	"../include/Gracz.h"
+	"StopWatch.h"
+
+1455969352 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\hud.h
+	"StatekKosmiczny.h"
+	<deque>
+	<SFML/Graphics.hpp>
+	<Vector.h>
+	"OGLcolors.h"
+	<cstdio>
+
+1455969120 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\statekkosmiczny.h
+	<iostream>
+	"Vector.h"
+	<vector>
+	"Bullet.h"
+
+1455971738 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\vector.h
+	<cmath>
+
+1407871744 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\bullet.h
+	<Vector.h>
+
+1455972044 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\oglcolors.h
+
+1409133050 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\gracz.h
+	"StatekKosmiczny.h"
+
+1455970345 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\stopwatch.h
+	<sys/types.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<ctime>
+
+1409224460 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\inicjuj.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<SFML/OpenGL.hpp>
+	<OGLcolors.h>
+	<cstdio>
+	<fstream>
+	<StopWatch.h>
+	<iostream>
+	"../TGALoader/targa.h"
+	"../OBJLoader/loadObj.h"
+
+1409049642 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\joystick.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<iostream>
+	"../include/Gracz.h"
+	"../include/Bullet.h"
+	"../include/HUD.h"
+
+1409132266 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\keyboard.cpp
+	<SFML/Graphics.hpp>
+	<cstdlib>
+	"../include/Gracz.h"
+	"../include/HUD.h"
+
+1409132800 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\kolizje.cpp
+	<SFML/Audio.hpp>
+	<cstdlib>
+	"../include/Gracz.h"
+	"../include/HUD.h"
+	"../include/StatekWroga.h"
+	"../include/Bullet.h"
+	"../include/Asteroida.h"
+	"../include/Nagroda.h"
+
+1408533724 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\statekwroga.h
+	"StatekKosmiczny.h"
+
+1408358256 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\asteroida.h
+	<Vector.h>
+
+1407757186 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\nagroda.h
+	<Vector.h>
+
+1409134682 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\logika.cpp
+	<SFML/OpenGL.hpp>
+	"../include/Gracz.h"
+	"../include/StatekWroga.h"
+	"../include/MenadzerNPC.h"
+	"../include/HUD.h"
+
+1408523400 c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\include\menadzernpc.h
+	"StatekWroga.h"
+
+1409224028 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\main.cpp
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<cstdlib>
+
+1409179444 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\menu.cpp
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	<OGLcolors.h>
+
+1409179316 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\myszka.cpp
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<cstdio>
+	<iostream>
+	"../include/HUD.h"
+	"../include/Gracz.h"
+	"../include/Bullet.h"
+
+1455970937 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\program\renderscene.cpp
+	<SFML/OpenGL.hpp>
+	"../include/Gracz.h"
+	"../include/StatekWroga.h"
+	"../include/HUD.h"
+	"../include/MenadzerNPC.h"
+	"../include/Nagroda.h"
+	<GL/glu.h>
+
+1409063272 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\asteroida.cpp
+	<SFML/OpenGL.hpp>
+	<OGLcolors.h>
+	"../include/Asteroida.h"
+	<cstdlib>
+
+1409063142 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\bullet.cpp
+	<SFML/OpenGL.hpp>
+	<OGLcolors.h>
+	"../include/Bullet.h"
+
+1409133032 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\gracz.cpp
+	"../include/Gracz.h"
+	<SFML/Audio.hpp>
+
+1455971287 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\hud.cpp
+	<SFML/Network.hpp>
+	<sstream>
+	"../include/HUD.h"
+	<GL/glu.h>
+
+1409063054 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\menadzernpc.cpp
+	"../include/MenadzerNPC.h"
+	"../include/Asteroida.h"
+	"../include/HUD.h"
+	<cstdlib>
+	<ctime>
+
+1409063080 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\nagroda.cpp
+	<SFML/OpenGL.hpp>
+	<OGLcolors.h>
+	"../include/Nagroda.h"
+	<cstdlib>
+
+1409134504 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\resetgame.cpp
+	<SFML/Graphics.hpp>
+	"../include/Gracz.h"
+	"../include/HUD.h"
+	"../include/StatekWroga.h"
+	"../include/Bullet.h"
+	"../include/Asteroida.h"
+	"../include/Nagroda.h"
+	"../include/MenadzerNPC.h"
+
+1409063092 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\statekkosmiczny.cpp
+	<SFML/OpenGL.hpp>
+	<OGLcolors.h>
+	"../include/StatekKosmiczny.h"
+	<cmath>
+
+1455971455 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\statekwroga.cpp
+	<SFML/OpenGL.hpp>
+	<OGLcolors.h>
+	"../include/StatekWroga.h"
+	"../include/Asteroida.h"
+	"../include/Gracz.h"
+	"../include/Bullet.h"
+	<ctime>
+	<cstdlib>
+
+1455971716 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\src\vector.cpp
+	"Vector.h"
+
+1408532004 source:c:\users\bujaz\desktop\programowanie\c++\gry\3dspaceshipgame\tgaloader\targa.cpp
+	"targa.h"
+	<GL/glext.h>
+	<stdio.h>
+	<string.h>
+
